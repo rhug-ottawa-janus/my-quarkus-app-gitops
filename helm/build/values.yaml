@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app
+  namespace: my-quarkus-app-dev
+  cluster: .apps.cluster-p6whl.p6whl.sandbox2396.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/rhug-ottawa-janus/my-quarkus-app
+  org: rhug-ottawa-janus
+  name: my-quarkus-app
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app-dev/my-quarkus-app
+  tag: latest
